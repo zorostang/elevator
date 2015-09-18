@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/elevatorScaffold.css" type="text/css" />
+
+  <script src="javascript/lib/require.js"
+	  data-main="javascript/elevator/loader.js"></script>
+</head>
+
+<body>
+
+  <div id="header">
+    <div id="title">
+      <div id="liveExpertLogo"><img src="images/leLogo.png" width="200"></div>
+      <h2>JavaScript Elevator Exercise</h2>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div id="pageBody">
+    <div id="topGradient"></div>
+
+    <div id="content">
+
+      <div id="elevator-controls">
+	<div class="title field-label">Pickup Floor Number: </div>
+	<input type="number" name="pickup-floorNumber"></input>
+  <div class="title field-label">Dropoff Floor Number: </div>
+  <input type="number" name="dropoff-floorNumber"></input>
+	<div class="clearfix"></div>
+
+	<!-- <input type="button" value="Request Pickup" onClick="requestPickup();"></input> -->
+	<input type="button" value="Request Dropoff" onClick="requestDropoff();"></input>
+      </div>
+        
+      <div class="title">Elevator Events:</div>
+      <div id="elevator-log"></div>
+
+    </div>
+  </div>
+
+
+  <div id="footer">
+    <div id="topGradient"></div>
+    <div id="clairvistaLogo"><img src="images/cvLogo.gif"/></div>
+    <div id="copyright">Copyright &copy; 2005-2014, ClairVista LLC.</div>
+  </div>
+
+
+</body>
+</html>
